@@ -79,10 +79,7 @@ right: 0;
     left: 0;
     margin: auto;
     transition: background-color .2s linear;
-    -webkit-transition: background-color .2s linear;
-    -moz-transition: background-color .2s linear;
-    -ms-transition: background-color .2s linear;
-    -o-transition: background-color .2s linear;
+    
 }
 .nav-toggle.active .nav-toggle-item {
 background: none;
@@ -90,28 +87,22 @@ background: none;
 .nav-toggle.active .nav-toggle-item::before {
     transform-origin: left top;
     transform:  rotate(45deg) translateX(0px);
-    -webkit-transform:  rotate(45deg) translateX(0px);
-    -moz-transform:  rotate(45deg) translateX(0px);
-    -ms-transform:  rotate(45deg) translateX(0px);
-    -o-transform:  rotate(45deg) translateX(0px);
+    
 }
 .nav-toggle.active .nav-toggle-item::after {
     transform-origin: left bottom;
     transform:  rotate(-45deg) translateX(0px);
-    -webkit-transform:  rotate(-45deg) translateX(0px);
-    -moz-transform:  rotate(-45deg) translateX(0px);
-    -ms-transform:  rotate(-45deg) translateX(0px);
-    -o-transform:  rotate(-45deg) translateX(0px);
+    
 }
 .nav-toggle-item::before,
 .nav-toggle-item::after { 
-    content: "";
-     width: 100%; 
-     background-color: #fff; 
-     height: 3px; position: absolute;
-      left: 0; 
-      z-index: 1; 
-      transition: transform .2s linear;
+        content: "";
+        width: 100%; 
+        background-color: #fff; 
+        height: 3px; position: absolute;
+        left: 0; 
+        z-index: 1; 
+        transition: transform .2s linear;
       
 }
 .nav-toggle-item::before {
@@ -650,7 +641,7 @@ textarea.area:hover {
     .logo img {
         position: absolute;
         top: 42px;
-        left: 0;
+        left: 15px;
     }
     .header-inner {
         display: flex;
@@ -772,6 +763,11 @@ textarea.area:hover {
 @media (max-width: 770px) {
     .container {
         padding: 0 15px;
+    }
+    .logo img {
+        position: absolute;
+        top: 42px;
+        left: 15px;
     }
     .intro {
         min-height: 650px;
@@ -910,6 +906,11 @@ textarea.area:hover {
         .container {
             padding: 0 15px;
         }
+        .logo img {
+            position: absolute;
+            top: 42px;
+            left: 15px;
+        }
         .intro {
             max-height: 575px;
         }
@@ -1039,6 +1040,12 @@ textarea.area:hover {
 }
 
 @media (max-width: 475px) {
+    .logo img {
+        position: absolute;
+        top: 42px;
+        left: 15px;
+    }
+
     .header-inner {
         display: flex;
         justify-content: space-between;
@@ -1127,6 +1134,11 @@ textarea.area:hover {
 
 
 @media (max-width: 411px) {
+    .logo img {
+        position: absolute;
+        top: 42px;
+        left: 15px;
+    }
     .header-inner {
         display: flex;
         justify-content: space-between;
@@ -1239,6 +1251,12 @@ textarea.area:hover {
 }
 
 @media (max-width: 375px) {
+    .logo img {
+        position: absolute;
+        top: 42px;
+        left: 15px;
+    }
+
     .header-inner {
         display: flex;
         justify-content: space-between;
@@ -1365,6 +1383,12 @@ textarea.area:hover {
     }
 }
 @media (max-width: 320px) {
+    .logo img {
+        position: absolute;
+        top: 42px;
+        left: 15px;
+    }
+    
     .header-inner {
         display: flex;
         justify-content: space-between;
