@@ -444,6 +444,10 @@ right: 0;
     color: #777777;
     margin-bottom: 76px;
 }
+form   {
+    display: flex;
+    
+}
 .form-content {
     margin-bottom: 31px;
 }
@@ -458,12 +462,9 @@ right: 0;
 }
 .area {
     padding-top: 20px;
-    
 }
-form   {
-    display: flex;
-    
-}
+
+
 
 input {
     width: 455px;
@@ -471,6 +472,10 @@ input {
     border: 1px solid #cccccc;
     border-radius: 5px;
     margin-bottom: 29px;
+    transition: background-color .1s linear;
+}
+ input:hover {
+    background-color: #affa91;
 }
 input:last-of-type {
     margin-bottom: 0;
@@ -480,6 +485,9 @@ input:last-of-type {
     height: 210px;
     border-radius: 5px;
     margin-left: 30px;
+}
+textarea.area:hover {
+    background-color: #affa91;
 }
 .btn-down {
     display: inline-block;
